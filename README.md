@@ -9,7 +9,9 @@
 5. try to add a job which just prints an echo shell output when you commit something
 6. commit your changes and go to https://circleci.com/dashboard and see if the process starts.
 7. Try to build a workflow based on the sample file bellow
-8. Optional: Try to add a valid kubernetes deployment file for the app. it should expose the docker port 9000 to an ingress on port 80. 
+8. Use environment variables instead of plaintext passwords (under project settings)
+9. Try to implement https://codecov.io/ after your test run (the ciTest command will generate the data you need)
+10. Optional: Try to add a valid kubernetes deployment file for the app. it should expose the docker port 9000 to an ingress on port 80. 
 
 ## 2. Reimplement it with Jenkins (optional)
 
