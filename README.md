@@ -1,6 +1,6 @@
 # Exercise-6-CI
 
-## Build the IOT Manager Project in a pipeline
+## 1. Build the IOT Manager Project in a pipeline
 
 1. fork https://github.com/hsro-inf-mis/play2-iot-manager as a new project
 2. create an https://circleci.com/ account with github access to your forked repo
@@ -11,7 +11,10 @@
 7. Try to build a workflow based on the sample file bellow
 8. Optional: Try to add a valid kubernetes deployment file for the app. it should expose the docker port 9000 to an ingress on port 80. 
 
+## 2. Reimplement it with Jenkins (optional)
 
+1. Create a docker instance with jenkins and install the blue origin template
+2. Try to reimplement the build with a JENKINSFILE
 
 ## Template for Workflow in Step 7
 
